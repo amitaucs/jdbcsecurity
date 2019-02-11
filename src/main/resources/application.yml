@@ -1,0 +1,15 @@
+server:
+  port: 8003
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:digitest
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: 'create-drop'
+    show-sql: true
+  h2:
+    console:
+      enabled: true
